@@ -1,0 +1,76 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Jura', sans-serif;
+}
+
+.wallpaper {
+    height: 90vh;
+    background-image: url(./assets/desk5.jpg);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.filter {
+    background-color: rgb(0, 0, 139, 0.1);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid whitesmoke 0.1em;
+    border-radius: 6%;
+    padding: 3% 5%;
+}
+
+.headtitle {
+    font-size: 4em;
+}
+
+.subtitle {
+    font-size: 1.2em;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    position: sticky;
+    top: 0px;
+}
+
+.insidenavbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    width: 75%;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.about {
+    background-color: yellow;
+    height: 90vh;
+}
+.works {
+    background-color: turquoise;
+    height: 90vh;
+}
+
+.contact {
+    background-color: violet;
+}
