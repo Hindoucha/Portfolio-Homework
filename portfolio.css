@@ -64,11 +64,60 @@ a {
 
 .about {
     background-color: yellow;
-    height: 90vh;
+    height: fit-content;
 }
+.sectiontitlediv {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 3% ;
+}
+
+.subsectiontitlediv {
+    text-align: center;
+    padding-top: 3% ;
+}
+
+.presentationandimage {
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name, .job {
+    font-size: 1.5em;
+    padding: 1%  15%;
+}
+
+.paragraph {
+    padding: 1%  15%;
+}
+
+.image {
+    padding-left: 3%;
+    padding-right: 7%;
+}
+
 .works {
     background-color: turquoise;
-    height: 90vh;
+    height: fit-content;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.ajuste {
+    height: 30vh;
+    width: 20vw;
 }
 
 .contact {
